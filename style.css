@@ -1,0 +1,47 @@
+/* p{
+    color:blue;
+    font-size:40px;
+    background-color: darkorange;
+}
+
+.jk{
+
+    color:chocolate;
+    background-color: cyan;
+}
+
+
+div{
+    height: 300px;
+    width: 120px;
+    color:coral;
+    background-color: black;
+    margin: 10px;
+    padding:5px ;
+    border: chartreuse;
+
+    
+    
+
+
+
+} */
+
+
+#mydiv1{
+    border: 5px solid black; 
+    padding: 10px;
+}
+
+#mydiv2{
+ border: 35px solid blue;
+ margin: 5px 5px 5px 15px;
+ height: 160px;
+ align-content: center;
+ background-color: #f7c81b;
+
+}
+
+p{
+    text-align: center;
+}
