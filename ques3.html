@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        div {
+            background-color: lightpink;
+            height: 450px;
+            width: 800px;
+            border: 3px solid black;
+        }
+
+        img {
+            height: 300px;
+            width: 200px;
+            float: inline-start;
+            margin: 20px;
+        }
+
+        h1 {
+            margin: 15px;
+        }
+
+        .clr {
+            clear: both;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>clear(Footer below floated content)</h1>
+        <img src="./computer.jpg" alt="computer image">
+        <p>This paragraph wraps around the floated image.
+        </p>
+        <p class="clr">This is the footer section, forced below the floated image using clear:both.</p>
+    </div>
+</body>
+
+</html>
